@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Toggle from './useToggle/toggle'
 import Fetch from './3-useFetch/Fetch'
+import LocalStorage from './4-useLocalStorage/LocalStorage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       <Toggle />
       <Fetch />
+      <LocalStorage />
     </>
   )
 }
