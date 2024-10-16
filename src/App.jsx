@@ -5,6 +5,7 @@ import './App.css'
 import Toggle from './useToggle/toggle'
 import Fetch from './3-useFetch/Fetch'
 import LocalStorage from './4-useLocalStorage/LocalStorage'
+import Debounce from './5-useDebounce/Debounce'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Toggle />
       <Fetch />
       <LocalStorage />
+      <Debounce />
     </>
   )
 }
